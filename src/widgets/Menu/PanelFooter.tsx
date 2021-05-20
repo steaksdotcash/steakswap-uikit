@@ -38,8 +38,16 @@ const PriceLink = styled.a`
   }
 `;
 
+// const SettingsEntry = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   height: ${MENU_ENTRY_HEIGHT}px;
+//   padding: 0 8px;
+// `;
+
 const SettingsEntry = styled.div`
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
@@ -121,7 +129,7 @@ const PanelFooter: React.FC<Props> = ({
             <MoonIcon color={isDark ? "text" : "textDisabled"} width="24px" />
           </Flex>
         </Button>
-        <Dropdown
+        {/* <Dropdown
           position="top-right"
           target={
             <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
@@ -140,7 +148,7 @@ const PanelFooter: React.FC<Props> = ({
               {lang.language}
             </MenuButton>
           ))}
-        </Dropdown>
+        </Dropdown> */}
       </SettingsEntry>
     </Container>
   );

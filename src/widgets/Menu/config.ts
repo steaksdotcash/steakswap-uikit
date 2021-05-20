@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://exchange.benswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://exchange.benswap.finance/#/pool",
       },
     ],
   },
@@ -26,7 +26,7 @@ export const links = [
   {
     label: "Pools",
     icon: "PoolIcon",
-    href: "/syrup",
+    href: "/pools",
   },
   {
     label: "Lottery",
@@ -99,16 +99,16 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/BenTokenFinance",
       },
       {
         label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        href: "https://docs.benswap.finance/",
       },
-      {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
-      },
+      // {
+      //   label: "Blog",
+      //   href: "https://goosefinance.medium.com/",
+      // },
     ],
   },
 ];
@@ -120,68 +120,63 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/goosedefi",
+        href: "https://t.me/bentokenfinance",
       },
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
       // },
-      {
-        label: "中文",
-        href: "https://t.me/goosefinancechinese",
-      },
       // {
-      //   label: "Tiếng Việt",
-      //   href: "https://t.me/PancakeSwapVN",
+      //   label: "中文",
+      //   href: "https://t.me/goosefinancechinese",
+      // },
+      // // {
+      // //   label: "Tiếng Việt",
+      // //   href: "https://t.me/PancakeSwapVN",
+      // // },
+      // {
+      //   label: "Italiano",
+      //   href: "https://t.me/goosefinanceitalian",
+      // },
+      // {
+      //   label: "русский",
+      //   href: "https://t.me/goosefinancerussian",
       // },
       {
-        label: "Italiano",
-        href: "https://t.me/goosefinanceitalian",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/goosefinancerussian",
-      },
-      {
         label: "Türkiye",
-        href: "https://t.me/GooseFinanceTurkey",
+        href: "https://t.me/bentokenfinanceturkish",
       },
       // {
       //   label: "Português",
       //   href: "https://t.me/PancakeSwapPortuguese",
       // },
-      {
-        label: "Español",
-        href: "https://t.me/goosefinancespanish",
-      },
-      {
-        label: "日本語",
-        href: "https://t.me/goosefinancejapanese",
-      },
-      {
-        label: "Français",
-        href: "https://t.me/goosefinancefrench",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/goosefinanceann",
-      },
-      {
-        label: "Price Bot",
-        href: "https://t.me/BinanceRocketEGG",
-      },
+      // {
+      //   label: "Español",
+      //   href: "https://t.me/goosefinancespanish",
+      // },
+      // {
+      //   label: "日本語",
+      //   href: "https://t.me/goosefinancejapanese",
+      // },
+      // {
+      //   label: "Français",
+      //   href: "https://t.me/goosefinancefrench",
+      // },
+      // {
+      //   label: "Announcements",
+      //   href: "https://t.me/goosefinanceann",
+      // },
+      // {
+      //   label: "Price Bot",
+      //   href: "https://t.me/BinanceRocketEGG",
+      // },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/goosedefi",
-  },
-  {
-    label: "Reddit",
-    icon: "RedditIcon",
-    href: "https://www.reddit.com/r/GooseFinanceofficial",
-  },
+    href: "https://twitter.com/BenTokenFinanc1",
+  }
 ];
 
 export const MENU_HEIGHT = 64;
