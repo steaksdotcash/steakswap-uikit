@@ -20,7 +20,7 @@ const Checkbox = styled.input.attrs({ type: "checkbox" })<CheckboxProps>`
   height: ${getScale};
   width: ${getScale};
   vertical-align: middle;
-  transition: background-color 0.2s ease-in-out;
+  /* transition: background-color 0.2s ease-in-out; */
   border: 0;
   border-radius: 8px;
   background-color: ${({ theme }) => theme.colors.input};
