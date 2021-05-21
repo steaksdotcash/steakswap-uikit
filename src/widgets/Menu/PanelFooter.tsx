@@ -48,7 +48,7 @@ const PriceLink = styled.a`
 
 const SettingsEntry = styled.div`
   display: block;
-  align-items: center;
+  text-align: center;
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: 0 8px;

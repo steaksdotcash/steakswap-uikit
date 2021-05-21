@@ -80,6 +80,7 @@ const StyledButton = styled.button<ButtonProps>`
   &:active {
     background-color: ${getButtonVariantProp("backgroundActive")};
     box-shadow: ${getButtonVariantProp("boxShadowActive")};
+    border-radius: 16px;
   }
 
   ${getDisabledStyles}
