@@ -2376,7 +2376,8 @@ var Accordion = function (_a) {
     return (React__default['default'].createElement(Container$2, null,
         React__default['default'].createElement(MenuEntry, { onClick: handleClick, className: className },
             icon,
-            React__default['default'].createElement(LinkLabel, { isPushed: isPushed }, label),
+            React__default['default'].createElement(LinkLabel, { isPushed: isPushed },
+                React__default['default'].createElement("span", null, label)),
             isOpen ? React__default['default'].createElement(Icon$15, null) : React__default['default'].createElement(Icon$16, null)),
         React__default['default'].createElement(AccordionContent, { isOpen: isOpen, isPushed: isPushed, maxHeight: React__default['default'].Children.count(children) * MENU_ENTRY_HEIGHT }, children)));
 };
