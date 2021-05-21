@@ -43,7 +43,7 @@ const StyledToggle = styled.div<{ checked: boolean }>`
   display: inline-flex;
   height: 40px;
   position: relative;
-  transition: background-color 200ms;
+  /* transition: background-color 200ms; */
   width: 72px;
 `;
 
