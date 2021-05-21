@@ -21,7 +21,6 @@ const LinkLabel = styled.div<{ isPushed: boolean }>`
   color: ${({ isPushed, theme }) => (isPushed ? theme.colors.textSubtle : "transparent")};
   transition: color 0.4s;
   flex-grow: 1;
-  font-family: 'Verdana',sans-serif;
 `;
 
 const MenuEntry = styled.div<Props>`
@@ -44,6 +43,10 @@ const MenuEntry = styled.div<Props>`
 
   svg {
     fill: ${({ theme }) => theme.colors.textSubtle};
+  }
+
+  span {
+    font-family: 'Verdana',sans-serif;
   }
 
   &:hover {
