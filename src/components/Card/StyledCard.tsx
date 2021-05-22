@@ -4,7 +4,6 @@ import { CardProps } from "./types";
 
 interface StyledCardProps extends CardProps {
   theme: DefaultTheme;
-  borderRadius?: string;
 }
 
 /**
@@ -47,6 +46,7 @@ StyledCard.defaultProps = {
   isSuccess: false,
   isWarning: false,
   isDisabled: false,
+  borderRadius: "32px"
 };
 
 export default StyledCard;
