@@ -45,6 +45,10 @@ const MenuEntry = styled.div<Props>`
     fill: ${({ theme }) => theme.colors.textSubtle};
   }
 
+  span {
+    font-family: 'Verdana',sans-serif;
+  }
+
   &:hover {
     background-color: ${({ theme }) => theme.colors.tertiary};
   }
