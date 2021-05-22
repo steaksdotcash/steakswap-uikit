@@ -4,7 +4,7 @@ import { CardProps } from "./types";
 
 interface StyledCardProps extends CardProps {
   theme: DefaultTheme;
-  borderRadius: string;
+  borderRadius?: string;
 }
 
 /**
