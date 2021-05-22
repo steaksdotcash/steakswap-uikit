@@ -665,13 +665,17 @@ var getBoxShadow$1 = function (_a) {
     }
     return theme.card.boxShadow;
 };
-var StyledCard = styled.div(templateObject_1$B || (templateObject_1$B = __makeTemplateObject(["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 32px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"], ["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 32px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"])), function (_a) {
+var getBorderRadius = function (_a) {
+    var borderRadius = _a.borderRadius;
+    return borderRadius || "32px";
+};
+var StyledCard = styled.div(templateObject_1$B || (templateObject_1$B = __makeTemplateObject(["\n  background-color: ", ";\n  border: ", ";\n  border-radius: ", ";\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"], ["\n  background-color: ", ";\n  border: ", ";\n  border-radius: ", ";\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"])), function (_a) {
     var theme = _a.theme;
     return theme.card.background;
 }, function (_a) {
     var theme = _a.theme;
     return theme.card.boxShadow;
-}, getBoxShadow$1, function (_a) {
+}, getBorderRadius, getBoxShadow$1, function (_a) {
     var theme = _a.theme, isDisabled = _a.isDisabled;
     return theme.colors[isDisabled ? "textDisabled" : "text"];
 }, space);
@@ -680,6 +684,7 @@ StyledCard.defaultProps = {
     isSuccess: false,
     isWarning: false,
     isDisabled: false,
+    borderRadius: "32px"
 };
 var templateObject_1$B;
 
@@ -1535,10 +1540,10 @@ var mediaQueries$1 = {
 };
 var shadows = {
     level1: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
-    active: "0px 0px 0px 1px #ffb948, 0px 0px 4px 8px rgb(212 114 31, 0.6)",
+    active: "0px 0px 0px 1px #f98c08, 0px 0px 4px 8px rgba(255,176,81, 0.8)",
     success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
     warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
-    focus: "0px 0px 0px 1px #ffb948, 0px 0px 0px 4px rgb(212 114 31, 04)",
+    focus: "0px 0px 0px 1px #ffb948, 0px 0px 0px 4px rgba(255,176,81, 0.4)",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 var spacing = [0, 4, 8, 16, 24, 32, 48, 64];
