@@ -4,6 +4,7 @@ import { CardProps } from "./types";
 
 interface StyledCardProps extends CardProps {
   theme: DefaultTheme;
+  borderRadius: string;
 }
 
 /**
@@ -25,10 +26,14 @@ const getBoxShadow = ({ isActive, isSuccess, isWarning, theme }: StyledCardProps
   return theme.card.boxShadow;
 };
 
+const getBorderRadius = ({borderRadius}: StyledCardProps) => {
+  return borderRadius || "32px";
+};
+
 const StyledCard = styled.div<StyledCardProps>`
   background-color: ${({ theme }) => theme.card.background};
   border: ${({ theme }) => theme.card.boxShadow};
-  border-radius: 32px;
+  border-radius: ${getBorderRadius};
   box-shadow: ${getBoxShadow};
   color: ${({ theme, isDisabled }) => theme.colors[isDisabled ? "textDisabled" : "text"]};
   overflow: hidden;
