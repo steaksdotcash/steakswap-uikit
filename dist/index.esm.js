@@ -2448,7 +2448,7 @@ var PanelBody = function (_a) {
                     React.createElement(MenuLink, { href: item.href },
                         React.createElement("span", null, item.label)))); })));
         }
-        return (React.createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
+        return (React.createElement(MenuEntry, { key: entry.label, isActive: entry.isActive || entry.href === location.pathname, className: calloutClass },
             React.createElement(MenuLink, { href: entry.href, onClick: handleClick },
                 iconElement,
                 React.createElement(LinkLabel, { isPushed: isPushed },

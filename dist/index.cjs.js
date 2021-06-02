@@ -2461,7 +2461,7 @@ var PanelBody = function (_a) {
                     React__default['default'].createElement(MenuLink, { href: item.href },
                         React__default['default'].createElement("span", null, item.label)))); })));
         }
-        return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
+        return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.isActive || entry.href === location.pathname, className: calloutClass },
             React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick },
                 iconElement,
                 React__default['default'].createElement(LinkLabel, { isPushed: isPushed },
