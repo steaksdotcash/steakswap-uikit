@@ -122,10 +122,10 @@ export const socials = [
         label: "English",
         href: "https://t.me/bentokenfinance",
       },
-      // {
-      //   label: "Bahasa Indonesia",
-      //   href: "https://t.me/PancakeSwapIndonesia",
-      // },
+      {
+        label: "Bahasa Indonesia",
+        href: "https://t.me/BenTokenFinanceIndonesia",
+      },
       // {
       //   label: "中文",
       //   href: "https://t.me/goosefinancechinese",
@@ -134,26 +134,26 @@ export const socials = [
       // //   label: "Tiếng Việt",
       // //   href: "https://t.me/PancakeSwapVN",
       // // },
-      // {
-      //   label: "Italiano",
-      //   href: "https://t.me/goosefinanceitalian",
-      // },
-      // {
-      //   label: "русский",
-      //   href: "https://t.me/goosefinancerussian",
-      // },
+      {
+        label: "Italiano",
+        href: "https://t.me/BenTokenFinanceItalian",
+      },
+      {
+        label: "русский",
+        href: "https://t.me/BenTokenFinanceRussia",
+      },
       {
         label: "Türkiye",
-        href: "https://t.me/bentokenfinanceturkish",
+        href: "https://t.me/BenTokenFinanceTurkey",
       },
       // {
       //   label: "Português",
       //   href: "https://t.me/PancakeSwapPortuguese",
       // },
-      // {
-      //   label: "Español",
-      //   href: "https://t.me/goosefinancespanish",
-      // },
+      {
+        label: "Español",
+        href: "https://t.me/BenTokenFinanceEspanol",
+      },
       // {
       //   label: "日本語",
       //   href: "https://t.me/goosefinancejapanese",
@@ -170,6 +170,14 @@ export const socials = [
       //   label: "Price Bot",
       //   href: "https://t.me/BinanceRocketEGG",
       // },
+      {
+        label: "Polskie",
+        href: "https://t.me/BenTokenFinancePolish",
+      },
+      {
+        label: "Deutsche",
+        href: "https://t.me/BenTokenFinanceGerman",
+      },
     ],
   },
   {
