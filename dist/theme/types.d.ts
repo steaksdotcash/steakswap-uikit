@@ -48,6 +48,7 @@ export declare type Colors = {
     binance: string;
     partner: string;
     promotion: string;
+    core: string;
 };
 export declare type ZIndices = {
     dropdown: number;

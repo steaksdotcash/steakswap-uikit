@@ -14,6 +14,7 @@ export declare const brandColors: {
 export declare const otherColors: {
     partner: string;
     promotion: string;
+    core: string;
 };
 export declare const lightColors: Colors;
 export declare const darkColors: Colors;

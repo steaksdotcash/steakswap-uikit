@@ -3038,6 +3038,7 @@ var brandColors = {
 var otherColors = {
     partner: "#57b4e6",
     promotion: "#ff7979",
+    core: "#deb41d"
 };
 var lightColors = __assign(__assign(__assign(__assign({}, baseColors), brandColors), otherColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#261d13", invertedContrast: "#FFFFFF", input: "#f4efea", tertiary: "#f5f3ef", text: "#333333", textDisabled: "#BDC2C4", textSubtle: "#703c2c", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",

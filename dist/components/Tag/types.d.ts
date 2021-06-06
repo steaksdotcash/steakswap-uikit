@@ -10,6 +10,7 @@ export declare const variants: {
     readonly FAILURE: "failure";
     readonly PARTNER: "partner";
     readonly PROMOTION: "promotion";
+    readonly CORE: "core";
 };
 export declare type Variants = typeof variants[keyof typeof variants];
 export interface TagProps extends SpaceProps {
