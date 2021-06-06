@@ -45,5 +45,6 @@ export { default as WarningIcon } from "./Icons/Warning";
 export { default as PromotionIcon } from "./Icons/Promotion";
 export { default as CoreIcon } from "./Icons/Core";
 export { default as PartnerIcon } from "./Icons/Partner";
+export { default as GiftIcon } from "./Icons/Gift";
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
