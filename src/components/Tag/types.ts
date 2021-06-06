@@ -10,7 +10,8 @@ export const variants = {
   BINANCE: "binance",
   FAILURE: "failure",
   PARTNER: "partner",
-  PROMOTION: "promotion"
+  PROMOTION: "promotion",
+  CORE: "core"
 } as const;
 
 export type Variants = typeof variants[keyof typeof variants];
