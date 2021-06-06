@@ -56,6 +56,10 @@ export type Colors = {
 
   // Brand colors
   binance: string;
+
+  // Other colors
+  partner: string;
+  promotion: string;
 };
 
 export type ZIndices = {

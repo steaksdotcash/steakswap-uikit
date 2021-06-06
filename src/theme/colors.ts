@@ -14,9 +14,15 @@ export const brandColors = {
   binance: "#F0B90B",
 };
 
+export const otherColors = {
+  partner: "#57b4e6",
+  promotion: "#ff7979",
+};
+
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
+  ...otherColors,
   background: "#FAF9FA",
   backgroundDisabled: "#E9EAEB",
   contrast: "#261d13",
@@ -36,6 +42,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
+  ...otherColors,
   background: "#353331",
   backgroundDisabled: "#423d37",
   contrast: "#FFFFFF",
