@@ -27,3 +27,4 @@ export { default as VaultsIcon } from "./Vaults";
 export { default as EggHouseIcon } from "./EggHouse";
 export { default as BenIcon } from "./Ben";
 export { default as ListingIcon } from "./Listing";
+export { default as IboIcon } from "./Ibo";
