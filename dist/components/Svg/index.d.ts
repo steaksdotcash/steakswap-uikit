@@ -43,6 +43,7 @@ export { default as SwapVertIcon } from "./Icons/SwapVert";
 export { default as SyncAltIcon } from "./Icons/SyncAlt";
 export { default as WarningIcon } from "./Icons/Warning";
 export { default as PromotionIcon } from "./Icons/Promotion";
+export { default as HeartIcon } from "./Icons/Heart";
 export { default as CoreIcon } from "./Icons/Core";
 export { default as PartnerIcon } from "./Icons/Partner";
 export { default as GiftIcon } from "./Icons/Gift";

@@ -48,6 +48,7 @@ export declare type Colors = {
     binance: string;
     partner: string;
     promotion: string;
+    friend: string;
     core: string;
 };
 export declare type ZIndices = {
