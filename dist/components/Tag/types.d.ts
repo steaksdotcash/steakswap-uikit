@@ -10,6 +10,7 @@ export declare const variants: {
     readonly FAILURE: "failure";
     readonly PARTNER: "partner";
     readonly PROMOTION: "promotion";
+    readonly ECOSYSTEM: "ecosystem";
     readonly FRIEND: "friend";
     readonly CORE: "core";
 };

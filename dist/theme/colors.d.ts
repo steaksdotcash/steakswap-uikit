@@ -14,6 +14,7 @@ export declare const brandColors: {
 export declare const otherColors: {
     partner: string;
     promotion: string;
+    ecosystem: string;
     friend: string;
     core: string;
 };
