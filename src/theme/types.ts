@@ -60,6 +60,7 @@ export type Colors = {
   // Other colors
   partner: string;
   promotion: string;
+  ecosystem: string;
   friend: string;
   core: string;
 };

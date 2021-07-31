@@ -17,6 +17,7 @@ export const brandColors = {
 export const otherColors = {
   partner: "#57b4e6",
   promotion: "#cb8ef9",
+  ecosystem: "#ff8f1d",
   friend: "#ff7979",
   core: "#deb41d"
 };

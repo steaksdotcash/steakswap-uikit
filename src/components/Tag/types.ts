@@ -11,6 +11,7 @@ export const variants = {
   FAILURE: "failure",
   PARTNER: "partner",
   PROMOTION: "promotion",
+  ECOSYSTEM: "ecosystem",
   FRIEND: "friend",
   CORE: "core"
 } as const;
