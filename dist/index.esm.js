@@ -340,7 +340,7 @@ var Icon$Y = function (props) {
 
 var Icon$X = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "/images/ben/logo.png" })));
+        React.createElement("image", { width: "32", height: "32", href: "/images/steak/logo.png" })));
 };
 
 var Icon$W = function (props) {
@@ -397,7 +397,7 @@ var Icon$T = function (props) {
 
 var Icon$S = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 90, height: 90, href: "/images/ben/9.png" })));
+        React.createElement("image", { width: 90, height: 90, href: "/images/steak/9.png" })));
 };
 
 var Icon$R = function (props) {
@@ -1219,7 +1219,7 @@ var Progress = function (_a) {
 var rotate = keyframes(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React.createElement("image", { width: "96", height: "96", href: "/images/ben/9.png" })));
+        React.createElement("image", { width: "96", height: "96", href: "/images/steak/9.png" })));
 };
 var Container$3 = styled.div(templateObject_2$9 || (templateObject_2$9 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled(SpinnerIcon)(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate);
@@ -1997,7 +1997,7 @@ var Icon$s = function (props) {
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 170 26" }, props),
-        React.createElement("image", { width: "170", height: "26", href: isDark ? '/images/ben/LogoTextNewDark.png' : '/images/ben/LogoTextNewWhite.png' })));
+        React.createElement("image", { width: "170", height: "26", href: isDark ? '/images/steak/LogoTextNewDark.png' : '/images/steak/LogoTextNewWhite.png' })));
 };
 
 var Icon$r = function (props) {
@@ -2271,7 +2271,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     BondsIcon: Icon$c,
     VaultsIcon: Icon$b,
     EggHouseIcon: Icon$a,
-    BenIcon: Icon$A,
+    SteakIcon: Icon$A,
     ListingIcon: Icon$9,
     IboIcon: Icon$8,
     TownIcon: Icon$7
@@ -2318,11 +2318,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.benswap.finance",
+                href: "https://exchange.steaks.cash",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.benswap.finance/#/pool",
+                href: "https://exchange.steaks.cash/#/pool",
             },
         ],
     },
@@ -2407,11 +2407,11 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/BenTokenFinance",
+                href: "https://github.com/steaksdotcash",
             },
             {
                 label: "Docs",
-                href: "https://docs.benswap.finance/",
+                href: "https://docs.steaks.cash/",
             },
             // {
             //   label: "Blog",
@@ -2427,70 +2427,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/bentokenfinance",
-            },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/BenTokenFinanceIndonesia",
-            },
-            // // {
-            // //   label: "Tiếng Việt",
-            // //   href: "https://t.me/PancakeSwapVN",
-            // // },
-            {
-                label: "Italiano",
-                href: "https://t.me/BenTokenFinanceItalian",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/BenTokenFinanceRussia",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/BenTokenFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/BenTokenFinanceEspanol",
-            },
-            // {
-            //   label: "日本語",
-            //   href: "https://t.me/goosefinancejapanese",
-            // },
-            // {
-            //   label: "Français",
-            //   href: "https://t.me/goosefinancefrench",
-            // },
-            // {
-            //   label: "Announcements",
-            //   href: "https://t.me/goosefinanceann",
-            // },
-            // {
-            //   label: "Price Bot",
-            //   href: "https://t.me/BinanceRocketEGG",
-            // },
-            {
-                label: "Polskie",
-                href: "https://t.me/BenTokenFinancePolish",
-            },
-            {
-                label: "Deutsche",
-                href: "https://t.me/BenTokenFinanceGerman",
+                href: "https://t.me/mmmsteak",
             },
             {
                 label: "中文",
-                href: "https://t.me/bentokenchinese",
+                href: "https://t.me/chinesesteak",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/BenTokenFinanc1",
+        href: "https://twitter.com/steaksdotcash",
     }
 ];
 var MENU_HEIGHT = 64;
@@ -3241,4 +3189,4 @@ var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark$6, butt
 
 var lightTheme = __assign(__assign({}, base), { isDark: false, alert: light$6, button: light$5, colors: lightColors, card: light$4, toggle: light$2, nav: light$1, modal: light, radio: light$3 });
 
-export { Icon$1h as AddIcon, Alert, Icon$1g as ArrowBackIcon, Icon$1f as ArrowDownIcon, Icon$1e as ArrowDropDownIcon, Icon$1d as ArrowDropUpIcon, Icon$1c as ArrowForwardIcon, Icon$1b as AutoRenewIcon, BackgroundImage, GridLayout$1 as BaseLayout, Icon$A as BenIcon, Icon$1a as BinanceIcon, Icon$1j as BlockIcon, Breadcrumbs, Icon$19 as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$17 as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$18 as CardViewIcon, GridLayout as CardsLayout, Checkbox, Icon$1l as CheckmarkCircleIcon, Icon$16 as CheckmarkIcon, Icon$15 as ChevronDownIcon, Icon$14 as ChevronLeftIcon, Icon$13 as ChevronRightIcon, Icon$12 as ChevronUpIcon, Icon$11 as CloseIcon, Icon$10 as CogIcon, Icon$$ as CommunityIcon, Icon$_ as CopyIcon, CopyToClipboard, Icon$D as CoreIcon, Dropdown, Icon$1k as ErrorIcon, Flex, Icon$B as GiftIcon, Icon$R as GooseRoundIcon, Heading, Icon$E as HeartIcon, Icon$Z as HelpIcon, IconButton, Image, Icon$1i as InfoIcon, Input$1 as Input, Link, LinkExternal, Icon$Y as ListViewIcon, Icon$X as LogoIcon, Icon$W as LogoRoundIcon, Menu, Icon$V as MinusIcon, Modal, ModalProvider, Icon$U as OpenNewIcon, Icon$S as PancakeRoundIcon, Icon$T as PancakesIcon, Icon$C as PartnerIcon, Icon$Q as PrizeIcon, Progress, Icon$N as ProgressBunny, Icon$F as PromotionIcon, Radio, Icon$P as RemoveIcon, ResetCSS, Icon$J as SearchIcon, Skeleton, Spinner, Svg, Icon$I as SwapVertIcon, Icon$H as SyncAltIcon, Tag, Text, Icon$L as Ticket, Icon$K as TicketRound, ToastContainer, Toggle, Icon$O as VerifiedIcon, Icon$G as WarningIcon, Icon$M as Won, variants as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
+export { Icon$1h as AddIcon, Alert, Icon$1g as ArrowBackIcon, Icon$1f as ArrowDownIcon, Icon$1e as ArrowDropDownIcon, Icon$1d as ArrowDropUpIcon, Icon$1c as ArrowForwardIcon, Icon$1b as AutoRenewIcon, BackgroundImage, GridLayout$1 as BaseLayout, Icon$A as SteakIcon, Icon$1a as BinanceIcon, Icon$1j as BlockIcon, Breadcrumbs, Icon$19 as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$17 as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$18 as CardViewIcon, GridLayout as CardsLayout, Checkbox, Icon$1l as CheckmarkCircleIcon, Icon$16 as CheckmarkIcon, Icon$15 as ChevronDownIcon, Icon$14 as ChevronLeftIcon, Icon$13 as ChevronRightIcon, Icon$12 as ChevronUpIcon, Icon$11 as CloseIcon, Icon$10 as CogIcon, Icon$$ as CommunityIcon, Icon$_ as CopyIcon, CopyToClipboard, Icon$D as CoreIcon, Dropdown, Icon$1k as ErrorIcon, Flex, Icon$B as GiftIcon, Icon$R as GooseRoundIcon, Heading, Icon$E as HeartIcon, Icon$Z as HelpIcon, IconButton, Image, Icon$1i as InfoIcon, Input$1 as Input, Link, LinkExternal, Icon$Y as ListViewIcon, Icon$X as LogoIcon, Icon$W as LogoRoundIcon, Menu, Icon$V as MinusIcon, Modal, ModalProvider, Icon$U as OpenNewIcon, Icon$S as PancakeRoundIcon, Icon$T as PancakesIcon, Icon$C as PartnerIcon, Icon$Q as PrizeIcon, Progress, Icon$N as ProgressBunny, Icon$F as PromotionIcon, Radio, Icon$P as RemoveIcon, ResetCSS, Icon$J as SearchIcon, Skeleton, Spinner, Svg, Icon$I as SwapVertIcon, Icon$H as SyncAltIcon, Tag, Text, Icon$L as Ticket, Icon$K as TicketRound, ToastContainer, Toggle, Icon$O as VerifiedIcon, Icon$G as WarningIcon, Icon$M as Won, variants as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
