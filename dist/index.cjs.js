@@ -353,7 +353,7 @@ var Icon$Y = function (props) {
 
 var Icon$X = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/ben/logo.png" })));
+        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/steak/logo.png" })));
 };
 
 var Icon$W = function (props) {
@@ -410,7 +410,7 @@ var Icon$T = function (props) {
 
 var Icon$S = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/ben/9.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/steak/9.png" })));
 };
 
 var Icon$R = function (props) {
@@ -1232,7 +1232,7 @@ var Progress = function (_a) {
 var rotate = styled.keyframes(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/ben/9.png" })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/steak/9.png" })));
 };
 var Container$3 = styled__default['default'].div(templateObject_2$9 || (templateObject_2$9 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled__default['default'](SpinnerIcon)(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate);
@@ -2010,7 +2010,7 @@ var Icon$s = function (props) {
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 170 26" }, props),
-        React__default['default'].createElement("image", { width: "170", height: "26", href: isDark ? '/images/ben/LogoTextNewDark.png' : '/images/ben/LogoTextNewWhite.png' })));
+        React__default['default'].createElement("image", { width: "170", height: "26", href: isDark ? '/images/steak/LogoTextNewDark.png' : '/images/steak/LogoTextNewWhite.png' })));
 };
 
 var Icon$r = function (props) {
@@ -2284,7 +2284,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     BondsIcon: Icon$c,
     VaultsIcon: Icon$b,
     EggHouseIcon: Icon$a,
-    BenIcon: Icon$A,
+    SteakIcon: Icon$A,
     ListingIcon: Icon$9,
     IboIcon: Icon$8,
     TownIcon: Icon$7
@@ -2331,11 +2331,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.benswap.finance",
+                href: "https://exchange.steaks.cash",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.benswap.finance/#/pool",
+                href: "https://exchange.steaks.cash/#/pool",
             },
         ],
     },
@@ -2420,15 +2420,15 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/BenTokenFinance",
+                href: "https://github.com/steaksdotcash",
             },
             {
                 label: "Docs",
-                href: "https://docs.benswap.finance/",
+                href: "https://docs.steaks.cash/",
             },
             // {
             //   label: "Blog",
-            //   href: "https://goosefinance.medium.com/",
+            //   href: "https://blog.steaks.cash/",
             // },
         ],
     },
@@ -2440,70 +2440,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/bentokenfinance",
-            },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/BenTokenFinanceIndonesia",
-            },
-            // // {
-            // //   label: "Tiếng Việt",
-            // //   href: "https://t.me/PancakeSwapVN",
-            // // },
-            {
-                label: "Italiano",
-                href: "https://t.me/BenTokenFinanceItalian",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/BenTokenFinanceRussia",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/BenTokenFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/BenTokenFinanceEspanol",
-            },
-            // {
-            //   label: "日本語",
-            //   href: "https://t.me/goosefinancejapanese",
-            // },
-            // {
-            //   label: "Français",
-            //   href: "https://t.me/goosefinancefrench",
-            // },
-            // {
-            //   label: "Announcements",
-            //   href: "https://t.me/goosefinanceann",
-            // },
-            // {
-            //   label: "Price Bot",
-            //   href: "https://t.me/BinanceRocketEGG",
-            // },
-            {
-                label: "Polskie",
-                href: "https://t.me/BenTokenFinancePolish",
-            },
-            {
-                label: "Deutsche",
-                href: "https://t.me/BenTokenFinanceGerman",
+                href: "https://t.me/mmmsteaks",
             },
             {
                 label: "中文",
-                href: "https://t.me/bentokenchinese",
+                href: "https://t.me/chinesesteaks",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/BenTokenFinanc1",
+        href: "https://twitter.com/steaksdotcash",
     }
 ];
 var MENU_HEIGHT = 64;
@@ -3264,7 +3212,7 @@ exports.ArrowForwardIcon = Icon$1c;
 exports.AutoRenewIcon = Icon$1b;
 exports.BackgroundImage = BackgroundImage;
 exports.BaseLayout = GridLayout$1;
-exports.BenIcon = Icon$A;
+exports.SteakIcon = Icon$A;
 exports.BinanceIcon = Icon$1a;
 exports.BlockIcon = Icon$1j;
 exports.Breadcrumbs = Breadcrumbs;
