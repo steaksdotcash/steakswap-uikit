@@ -49,4 +49,4 @@ export { default as PartnerIcon } from "./Icons/Partner";
 export { default as GiftIcon } from "./Icons/Gift";
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
-export { default as BenIcon } from "../../widgets/Menu/icons/Ben";
+export { default as SteakIcon } from "../../widgets/Menu/icons/Steak";
