@@ -25,7 +25,7 @@ export { default as RoadmapIcon } from "./Roadmap";
 export { default as BondsIcon } from "./Bonds";
 export { default as VaultsIcon } from "./Vaults";
 export { default as EggHouseIcon } from "./EggHouse";
-export { default as BenIcon } from "./Ben";
+export { default as SteakIcon } from "./Steak";
 export { default as ListingIcon } from "./Listing";
 export { default as IboIcon } from "./Ibo";
 export { default as TownIcon } from "./Town";
