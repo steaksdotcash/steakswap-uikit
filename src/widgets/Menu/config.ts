@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.benswap.finance",
+        href: "https://exchange.steaks.cash",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.benswap.finance/#/pool",
+        href: "https://exchange.steaks.cash/#/pool",
       },
     ],
   },
@@ -99,11 +99,11 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/BenTokenFinance",
+        href: "https://github.com/steaksdotcash",
       },
       {
         label: "Docs",
-        href: "https://docs.benswap.finance/",
+        href: "https://docs.steaks.cash/",
       },
       // {
       //   label: "Blog",
@@ -120,70 +120,18 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/bentokenfinance",
-      },
-      {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/BenTokenFinanceIndonesia",
-      },
-      // // {
-      // //   label: "Tiếng Việt",
-      // //   href: "https://t.me/PancakeSwapVN",
-      // // },
-      {
-        label: "Italiano",
-        href: "https://t.me/BenTokenFinanceItalian",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/BenTokenFinanceRussia",
-      },
-      {
-        label: "Türkiye",
-        href: "https://t.me/BenTokenFinanceTurkey",
-      },
-      // {
-      //   label: "Português",
-      //   href: "https://t.me/PancakeSwapPortuguese",
-      // },
-      {
-        label: "Español",
-        href: "https://t.me/BenTokenFinanceEspanol",
-      },
-      // {
-      //   label: "日本語",
-      //   href: "https://t.me/goosefinancejapanese",
-      // },
-      // {
-      //   label: "Français",
-      //   href: "https://t.me/goosefinancefrench",
-      // },
-      // {
-      //   label: "Announcements",
-      //   href: "https://t.me/goosefinanceann",
-      // },
-      // {
-      //   label: "Price Bot",
-      //   href: "https://t.me/BinanceRocketEGG",
-      // },
-      {
-        label: "Polskie",
-        href: "https://t.me/BenTokenFinancePolish",
-      },
-      {
-        label: "Deutsche",
-        href: "https://t.me/BenTokenFinanceGerman",
+        href: "https://t.me/mmmsteaks",
       },
       {
         label: "中文",
-        href: "https://t.me/bentokenchinese",
+        href: "https://t.me/chinesesteak",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/BenTokenFinanc1",
+    href: "https://twitter.com/steaksdotcash",
   }
 ];
 
